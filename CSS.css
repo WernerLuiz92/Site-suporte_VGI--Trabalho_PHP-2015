@@ -1,0 +1,227 @@
+@charset "utf-8";
+#Banner {
+	width: 1004px;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background-color: #FFF;
+}
+#Corpo {
+	width: 1004px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+#MenuSpry {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#MenuLateral {
+	clear: left;
+	float: left;
+	width: 186px;
+	margin-right: auto;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+#Conteudo {
+	clear: right;
+	float: right;
+	width: 804px;
+	margin-left: auto;
+	overflow: hidden;
+	height: auto;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+#RodaPe {
+	height: 260px;
+	width: 1004px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+#RodaEndereco {
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	float: left;
+	width: 34%;
+	text-align:center;
+}
+#RodaEmail {
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	width: 33%;
+	float: right;
+	text-align:center;
+}
+
+
+#RodaTelefones {
+	float: left;
+	width: 33%;
+	overflow: hidden;
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	text-align:center;
+}
+
+
+#CopyRight {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #000;
+	background-color: #CCC;
+	width: 1004px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#Separador {
+	height: 10px;
+	width: 1004px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#SenhaPDV {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 36px;
+	color: #CCC;
+	text-align: center;
+	vertical-align: middle;
+}
+//-----------------------------------------------
+//Estilos dos formulários
+* {
+    margin: 0;
+    padding: 0;
+} 
+fieldset {
+    border: 0;
+}
+body, input, select, textarea, button {
+    font-family: arial;
+    font-size: 1em;
+}
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+.grupo:after {
+    clear: both;
+}
+.campo {
+    margin-bottom: 1em;
+}
+ 
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+ 
+.campo select option {
+    padding-right: 1em;
+}
+ 
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #EFEFEF;
+}
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+.botao {
+    font-size: 1.5em;
+    background: #CCCCCC;
+    border: 0;
+    margin-bottom: 1em;
+    color: #B32127;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+ 
+.botao:hover {
+    background: #999;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+//-----------------------------------------------
+//Estilos das tabelas
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}
