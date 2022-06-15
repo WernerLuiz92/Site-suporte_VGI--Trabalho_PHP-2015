@@ -4,7 +4,7 @@
 		$mes = date('m');
 		$ano = date('y');
 		
-		$senha = ($dia * $mes * $ano *3);
+		$senha = ($dia * $mes * $ano * 8);
 		
 		return $senha;
 	}
